@@ -1,20 +1,17 @@
 :root {
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
-
     /* text-collors */
     --primary-txt-cl: #757575;
     --title-txt-cl: #212121;
     --accent-txt-cl: #2196f3;
     --active-txt-cl: #ffffff;
-
     /* background-colors */
     --dark-bg-cl: #2f303a;
     --primary-bg-cl: #ffffff;
     --secondary-bg-cl: #f5f4fa; 
     --accent-bg-cl: #2196f3;
 }
-
 body{
     font-family: var(--font-family);
     font-size: 14px;
@@ -87,7 +84,6 @@ body{
     color: var(--title-txt-cl);
 }
 /* Чим ми займаємося */
-
 /*  Наша команда */
 .card-title {
     font-weight: 500;
@@ -97,7 +93,6 @@ body{
 .card-text {
    font-size: 16px;
 }
-
 /* footer */
 .footer{
     background-color: var(--dark-bg-cl);
@@ -118,7 +113,6 @@ body{
 .footer-link-mail:focus{
     background-color: var(--accent-bg-cl);
 }
-
 /* Portfolio */
 /* Наші роботи */
 .button{
