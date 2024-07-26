@@ -117,7 +117,9 @@ body{
     text-decoration: none;
 }
 .footer-link-mail:hover,
-.footer-link-mail:focus{
+.footer-link-mail:focus,
+.footer-link-tel:hover,
+.footer-link-tel:focus{
     background-color: var(--accent-bg-cl);
 }
 /* Portfolio */
