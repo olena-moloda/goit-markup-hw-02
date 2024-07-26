@@ -15,12 +15,15 @@
 body{
     font-family: var(--font-family);
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-txt-cl);
 }
 .list{
     list-style: none;
+}
+.link{
+    text-decoration: none;
 }
 .section-title{
     font-size: 36px;
@@ -46,13 +49,13 @@ body{
     color: var(--title-txt-cl);
     text-decoration: none;
 }
-.header-link-mail,
-.header-link-tel{
+.mail,
+.tel{
     color: var(--primary-txt-cl);
     text-decoration: none;
 }
-.header-link-mail:hover,
-.header-link-mail:focus,
+.header-link:hover,
+.header-link:focus,
 .current{
     color: var(--accent-txt-cl);
 }
@@ -63,7 +66,7 @@ body{
 .hero-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 136%;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
@@ -74,17 +77,21 @@ body{
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 16px;
-    line-height: 187%;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--active-txt-cl);
 }
 /* Особливості */
 .list-title{
+    font-size: 14px;
     text-transform: uppercase;
     color: var(--title-txt-cl);
 }
 /* Чим ми займаємося */
 /*  Наша команда */
+.team{
+    background: var(--secondary-bg-cl);
+}
 .card-title {
     font-weight: 500;
     font-size: 16px;
@@ -120,7 +127,7 @@ body{
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     color: var(--title-txt-cl);
 }
@@ -135,11 +142,12 @@ body{
 }
 .image-title{
     font-size: 18px;
-    line-height: 200%;
+    line-height: 2.00;
     letter-spacing: 0.06em;
     color: var(--title-txt-cl);
 }
 .image-text{
     font-size: 16px;
-    line-height: 187%;
+    line-height: 1.87;
+    color: var(--primary-txt-cl);
 }
